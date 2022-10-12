@@ -1,0 +1,105 @@
+/* Inserisco lo sfondo */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+/* Qui si lavora sulla parte di sottofondo scura */
+.container{
+  width: 960px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-bottom: 100px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 30px;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 8%;
+}
+
+header{
+  text-align: center;
+}
+
+/* Caratteristiche titolo principale */
+header h1 {
+  font-size: 24px;
+  color:#40ff02;
+  font-family: Comic Sans Ms;
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+
+/* Creo barra verde centrale dove c'è menu navigazione */
+nav{
+  height: 38px;
+  background-color: #40ff02;
+  margin-left: 8%;
+  margin-right: 8%;
+  text-align: center;
+}
+
+/* Definisco caratterisriche bottoni all'interno del menù sotto il titolo */
+nav > button{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+
+/* Caratteristiche delle 3 sezioni nella parte centrale */
+main section{
+  margin-left: 8%;
+  color: white;
+  font-family: Comic Sans Ms;
+}
+
+/* Definisco caratteristiche parte nome Monopattino */
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+/* Inserisco quadrato prima di ogni nome monopattino */
+.title::before{
+  content: "\25A0";
+  margin-right: 4px;
+}
+
+.content {
+  font-size: 14px;
+}
+
+
+/* Assegno le caratteristiche di tutte le linee orizzonatli che rappresentano barra ricarica */
+#first-row{
+  height: 25px;
+  border: 0;
+  background-color: #efb958;
+  margin-right: 70%;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 1px;
+}
+
+#second-row{
+  height: 25px;
+  border: 0;
+  background-color: #17d817;
+  margin-right: 45%;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 1px;
+}
+
+#third-row{
+  height: 25px;
+  border: 0;
+  background-color: #ba4940;
+  margin-right: 85%;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 1px;
+}
